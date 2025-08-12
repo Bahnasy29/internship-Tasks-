@@ -1,0 +1,23 @@
+| #  | Column        | Description                                                                        |
+| -- | ------------- | ---------------------------------------------------------------------------------- |
+| 0  | `PassengerId` | Unique ID for each passenger (used as index).                                      |
+| 1  | `Survived`    | Survival status: 1 = survived, 0 = died.                                           |
+| 2  | `Pclass`      | Passenger class: 1st, 2nd, or 3rd (1 = highest).                                   |
+| 3  | `Name`        | Full name as recorded on the ship.                                                 |
+| 4  | `Sex`         | Gender of the passenger: male or female.                                           |
+| 5  | `Age`         | Age of the passenger (may have missing values).                                    |
+| 6  | `SibSp`       | Number of siblings or spouses aboard.                                              |
+| 7  | `Parch`       | Number of parents or children aboard.                                              |
+| 8  | `Ticket`      | Ticket number (not very useful without processing).                                |
+| 9  | `Fare`        | Price of the ticket.                                                               |
+| 10 | `Cabin`       | Cabin number (can help extract Deck info).                                         |
+| 11 | `Embarked`    | Port where the passenger boarded (C = Cherbourg, Q = Queenstown, S = Southampton). |
+| 12 | `WikiId`      | ID from Wikipedia (used for matching additional info).                             |
+| 13 | `Name_wiki`   | Name as written on Wikipedia.                                                      |
+| 14 | `Age_wiki`    | Age from Wikipedia (can be used to fill missing `Age`).                            |
+| 15 | `Hometown`    | City or country the passenger came from.                                           |
+| 16 | `Boarded`     | City where the passenger boarded the ship (text version).                          |
+| 17 | `Destination` | Final intended destination.                                                        |
+| 18 | `Lifeboat`    | Lifeboat number used (if any).                                                     |
+| 19 | `Body`        | Body ID number (if recovered after the sinking).                                   |
+| 20 | `Class`       | Class description (like "1st Class", "3rd Class") — text version of `Pclass`.      |
